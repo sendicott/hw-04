@@ -39,11 +39,51 @@ body {
     display: inline-block;
 }
 
+#logo {
+    margin: 0 0 0 100px;
+    padding: 0;
+}
 
+#logo img {
+    width: 60%;
+}
+
+.categories {
+    text-decoration: none;
+    color: #262427;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+#collection {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: green;
+}
 
 #cart {
     width: 35px;
     height: 30px;
     background-image: url(assets/sprite@2x.png);
     background-position: -85px -28px;
+    margin: 0;
+}
+
+#cartthings {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px lightgray;
+}
+
+.cartbox {
+    margin: 5px;
+}
+
+#zero {
+    background-color: #c8c8c8;
+    color: white;
+    padding: 2px 8px;
 }
