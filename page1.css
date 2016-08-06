@@ -165,5 +165,77 @@ body {
     font-size: 60px;
     font-family: 'Titillium Web', sans-serif;
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 1px;
+}
+
+/*Section 4*/
+
+#row4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px 85px;
+}
+
+.bowpockettie {
+    width: 400px;
+    height: 200px;
+    background-size: 350px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 15px;
+}
+
+.bowpockettie p {
+    text-align: right;
+    padding: 0 25px;
+    font-family: 'Lato', sans-serif;    
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#bowtie {
+    background-image: url("assets/bow-ties@1.5x.jpg");
+
+}
+
+#pocketsquare {
+    background-image: url("assets/pocket-squares@1.5x.jpg");
+}
+
+#pocketsquare section {
+    margin-top: 20px;
+}
+
+#pocketsquare p {
+    margin: 0;
+}
+
+#tiebar {
+    background-image: url("assets/tie-bars@1.5x.jpg");
+}
+
+/*Section 5*/
+
+#row5 p {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    font-style: italic;
+    margin: 5px;
+}
+
+#row5 a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: block;
+    font-family: sans-serif;
+    color: #92ccff;
+    word-spacing: 3px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 60px;
 }
