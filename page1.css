@@ -216,6 +216,11 @@ body {
 
 /*Section 5*/
 
+#row5 {
+    border-bottom: 50px solid gray;
+    border-image: url(assets/hatch-light@2x.png) 5000 repeat;
+}
+
 #row5 p {
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
@@ -427,9 +432,17 @@ body {
     margin: 25px 0 0 10px;
 }
 
+#row7bottom {
+    padding-left: 85px;
+}
+
 #row7bottom p {
     display: inline-block;
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     color: gray;
+}
+
+#gravity {
+    margin-left: 15px;
 }
