@@ -9,7 +9,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    width: 100%;
     padding: 7px 100px;
     margin: 0;
 }
@@ -77,7 +76,7 @@ body {
 #cartcontainer {
     height: 130px;
     vertical-align: top;
-    padding: 65px 15px 65px 140px;
+    padding: 65px 15px 65px 120px;
 }
 
 #cartthings {
@@ -224,6 +223,7 @@ body {
     font-weight: 200;
     font-style: italic;
     margin: 5px;
+    color: #595959;
 }
 
 #row5 a {
@@ -238,4 +238,198 @@ body {
     margin-top: 20px;
     letter-spacing: 2px;
     margin-bottom: 60px;
+}
+
+/*Section 6*/
+
+#row6 {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    border-bottom: 5px solid transparent;
+    border-image: url(assets/perforated-bottom@2x.png) 30 30 repeat;
+    padding: 65px 65px 45px 65px;
+}
+
+#row6 h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#row6 img {
+    width: 250px;
+}
+
+#row6 p {
+    margin: 3px 0;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+#row6 input {
+    padding: 8px 5px;
+    margin: 20px 0;
+    width: 70%;
+    border: 1px solid lightgray;
+    outline: 5px solid #f1f1f1;
+}
+
+.topline {
+    padding-top: 6px;
+    color: #595959;
+}
+
+.link {
+    color: #62b6ff;
+}
+
+#socialmedia {
+    padding-top: 8px;
+}
+
+#fb {
+    width: 50px;
+    height: 50px;
+    background-image: url(assets/sprite@2x.png);
+    background-position: -299px 6px;
+    background-size: 900%;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: inline-block;
+}
+
+#pint {
+    width: 50px;
+    height: 50px;
+    background-image: url(assets/sprite@2x.png);
+    background-position: -299px -40px;
+    background-size: 900%;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: inline-block;
+}
+
+#twit {
+    width: 50px;
+    height: 50px;
+    background-image: url(assets/sprite@2x.png);
+    background-position: -299px -85px;
+    background-size: 900%;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: inline-block;
+}
+
+.row6text {
+    color: #595959;
+}
+
+#buttonscribe {
+    color: white;
+    background-color: #62b6ff;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+/*Section 7*/
+
+#row7 {
+    background-color: #f4f4f4;
+    height: 250px;
+}
+
+#row7top {
+    padding: 25px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#row7box1 {
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 500px;
+    height: 150px;
+    vertical-align: top;
+}
+#row7box1 section {
+    height: 50px;
+    margin: 0 25px;
+}
+
+#row7box1 section h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+#row7box1 section p {
+    margin: 2px 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    color: gray;
+    margin: 3px 0;
+}
+
+#row7box2 {
+    background-color: #a2afc0;
+    width: 275px;
+    height: 125px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: white;
+    padding: 10px 10px 0 10px;
+    margin-right: 25px;
+}
+
+#here {
+    font-family: 'Titillium Web', sans-serif;
+    font-style: italic;
+    font-size: 23px;
+    font-weight: 100;
+    margin: 0;
+}
+
+.there {
+    display: inline-block;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    vertical-align: top;
+}
+
+#email {
+    margin-bottom: 0;
+}
+
+#number {
+    padding: 0 0 10px 0;
+    margin: 0;
+}
+
+#contactbutton {
+    background-color: #62b6ff;
+    padding: 8px 10px;
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: 100;
+    border: 1px solid gray;
+    margin: 25px 0 0 10px;
+}
+
+#row7bottom p {
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    color: gray;
 }
