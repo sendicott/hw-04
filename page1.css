@@ -97,6 +97,11 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+#sir {
+    padding-bottom: 10px;
+    text-align: right;
+}
+
 #signin {
     height: 130px;
     vertical-align: top;
@@ -132,8 +137,9 @@ body {
 
 #searchbox {
     border: 1px solid #c2c2c2;
+    outline: 5px solid #f1f1f1;
     width: 150px;
-    margin: 0 0 5px 0;
+    vertical-align: top;
 }
 
 /*Section 3*/
@@ -445,4 +451,13 @@ body {
 
 #gravity {
     margin-left: 15px;
+}
+
+#howtotie {
+    text-decoration: none;
+}
+
+#howtotie p:hover {
+    color: #62b6ff;
+    cursor: pointer;
 }
