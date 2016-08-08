@@ -214,6 +214,15 @@ body {
     background-image: url("http://www.tie-a-tie.net/wp-content/uploads/2016/05/TAT_Windsor.jpg");
 }
 
+#windsor p {
+    color: yellow;
+}
+
+#tiegraphic img {
+    display: inline-block;
+    padding-left: 200px;
+}
+
 /*Section 6*/
 
 #row6 {
