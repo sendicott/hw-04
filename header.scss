@@ -1,0 +1,147 @@
+// Section 1
+
+header {
+    #row1 {
+        background-color: #fa6938;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 7px 100px;
+        margin: 0;
+
+        a:first-child {
+            display: inline-block;
+            background-color: #c7532c;
+            padding: 3px;
+            text-transform: uppercase;
+            border-radius: 6px;
+        }  
+    }
+    nav {
+        a {
+            text-decoration: none;
+            font-size: 14px;
+            color: white;
+            font-size: 16px;
+            font-family: 'Inder', sans-serif;
+            font-weight: 5;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+    } 
+}
+
+// Section 2
+
+#cartrow {
+    height: 140px;
+    border-bottom: 5px solid transparent;
+    border-image: url(assets/perforated-bottom@2x.png) 30 30 repeat;
+
+    figure {
+
+        img {
+            margin: 0 20px 0 60px;
+            height: 120px;
+        }
+    }
+
+    nav {
+        vertical-align: top;
+        padding: 0 0 0 20px;
+
+        a {
+            padding: 65px 10px;
+            display: inline-block;
+            height: 130px;
+            text-decoration: none;
+            color: #444444;
+            font-family: 'Titillium Web', sans-serif;
+            font-size: 28px;
+        }
+    }
+
+    & > * {
+        display: inline-block;
+    }
+}
+
+#cartcontainer {
+    height: 130px;
+    vertical-align: top;
+    padding: 65px 15px 65px 120px;
+
+    section {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 1px lightgray;
+
+        figure {
+            width: 35px;
+            height: 30px;
+            background-image: url(assets/sprite@2x.png);
+            background-position: -85px -28px;
+            margin: 0;
+        }
+    }
+}
+
+.cartbox {
+    margin: 5px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#zero {
+    background-color: #c8c8c8;
+    color: white;
+    padding: 2px 8px;
+}
+
+#signin {
+    height: 130px;
+    vertical-align: top;
+    margin: 45px 0;
+
+    // Contains Sign in and Register link
+    section {
+        padding-bottom: 10px;
+        text-align: right;
+    
+        a {
+            text-decoration: none;
+            font-family: 'Titillium Web', sans-serif;
+            color: #838383;
+            text-transform: uppercase;
+            font-size: 12px;
+        }       
+    }
+
+    form {
+        border: 1px solid #c2c2c2;
+        outline: 5px solid #f1f1f1;
+        width: 150px;
+        vertical-align: top;
+
+        figure {
+            width: 38px;
+            height: 20px;
+            background-image: url(assets/sprite@2x.png);
+            background-position: 3px -16px;
+            background-size: 1200%;
+            margin: 5px 0 0 0;
+            display: inline-block;
+            padding: 0;
+        }
+
+        input {
+            border: 0;
+            vertical-align: top;
+            font-size: 15px;
+            font-family: 'Titillium Web', sans-serif;
+            width: 100px;
+            padding-top: 5px;
+        }
+    }
+}
