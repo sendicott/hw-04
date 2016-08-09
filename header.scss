@@ -6,7 +6,10 @@ header {
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        padding: 7px 100px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        @extend .gutter;
+
         margin: 0;
 
         a:first-child {
@@ -20,7 +23,6 @@ header {
     nav {
         a {
             text-decoration: none;
-            font-size: 14px;
             color: white;
             font-size: 16px;
             font-family: 'Inder', sans-serif;
@@ -33,11 +35,11 @@ header {
 }
 
 // Section 2
-
-#cartrow {
+#row2 {
     height: 140px;
     border-bottom: 5px solid transparent;
     border-image: url(assets/perforated-bottom@2x.png) 30 30 repeat;
+    @extend .gutter;
 
     figure {
 
@@ -56,7 +58,7 @@ header {
             display: inline-block;
             height: 130px;
             text-decoration: none;
-            color: #444444;
+            color: $grayfont;
             font-family: 'Titillium Web', sans-serif;
             font-size: 28px;
         }
@@ -78,6 +80,11 @@ header {
         justify-content: center;
         border: solid 1px lightgray;
 
+        * {
+            margin: 5px;
+            font-family: 'Titillium Web', sans-serif;
+        }
+
         figure {
             width: 35px;
             height: 30px;
@@ -88,16 +95,7 @@ header {
     }
 }
 
-.cartbox {
-    margin: 5px;
-    font-family: 'Titillium Web', sans-serif;
-}
 
-#zero {
-    background-color: #c8c8c8;
-    color: white;
-    padding: 2px 8px;
-}
 
 #signin {
     height: 130px;
@@ -112,7 +110,7 @@ header {
         a {
             text-decoration: none;
             font-family: 'Titillium Web', sans-serif;
-            color: #838383;
+            color: $grayfont;
             text-transform: uppercase;
             font-size: 12px;
         }       
@@ -138,10 +136,16 @@ header {
         input {
             border: 0;
             vertical-align: top;
-            font-size: 15px;
+            font-size: 12px;
             font-family: 'Titillium Web', sans-serif;
             width: 100px;
             padding-top: 5px;
         }
     }
+}
+
+#zero {
+    background-color: #c8c8c8;
+    color: white;
+    padding: 2px 8px;
 }

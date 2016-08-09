@@ -1,0 +1,113 @@
+#row7 {
+    background-color: #f4f4f4;
+    height: 250px;
+}
+
+#row7top {
+    padding: 25px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#row7box1 {
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 500px;
+    height: 150px;
+    vertical-align: top;
+
+    section {
+        height: 50px;
+        margin: 0 25px;
+
+        h4 {
+            font-family: 'Lato', sans-serif;
+            font-size: 14px;
+            margin-bottom: 10px;
+            margin-top: 0;
+        }
+
+        p {
+            margin: 2px 0;
+            font-family: 'Lato', sans-serif;
+            font-size: 13px;
+            color: $grayfont;
+            margin: 3px 0;
+        }
+    }
+}
+
+#row7box2 {
+    background-color: #a2afc0;
+    width: 275px;
+    height: 125px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 5px;
+    border: 1px solid $grayfont;
+    color: white;
+    padding: 10px 10px 0 10px;
+    margin-right: 25px;
+}
+
+#here {
+    font-family: 'Titillium Web', sans-serif;
+    font-style: italic;
+    font-size: 23px;
+    font-weight: 100;
+    margin: 0;
+}
+
+.there {
+    display: inline-block;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    vertical-align: top;
+}
+
+#email {
+    margin-bottom: 0;
+}
+
+#number {
+    padding: 0 0 10px 0;
+    margin: 0;
+}
+
+#contactbutton {
+    background-color: $buttonlinks;
+    padding: 8px 10px;
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: 100;
+    border: 1px solid $grayfont;
+    margin: 30px 0 0 5px;
+}
+
+#row7bottom {
+    padding-left: 85px;
+
+    p {
+        display: inline-block;
+        font-family: 'Lato', sans-serif;
+        font-size: 13px;
+        color: $grayfont;
+    }
+}
+
+#gravity {
+    margin-left: 15px;
+}
+
+#howtotie {
+    text-decoration: none;
+
+    p:hover {
+        color: $buttonlinks;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,30 @@
+#row5 {
+    border: 10px solid transparent;
+    border-image: url(assets/hatch-light@2x.png);
+    border-image-slice: 0 0 14 0;
+    border-image-repeat: repeat;
+
+    p {
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 40px;
+        font-weight: 200;
+        font-style: italic;
+        margin: 5px;
+        color: $grayfont;
+    }
+
+    a {
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        text-transform: uppercase;
+        display: block;
+        font-family: sans-serif;
+        color: #92ccff;
+        word-spacing: 3px;
+        margin-top: 20px;
+        letter-spacing: 2px;
+        margin-bottom: 60px;
+    }
+}

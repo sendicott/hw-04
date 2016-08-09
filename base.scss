@@ -1,3 +1,18 @@
 body {
     margin: 0;
 }
+
+.gutter {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.social {
+    width: 50px;
+    height: 50px;
+    background-image: url(assets/sprite@2x.png);
+    background-size: 900%;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: inline-block;
+}

@@ -1,2 +1,11 @@
+$header-font: 'Titillium Web', sans-serif;
+$grayfont: #595959;
+$buttonlinks: #62b6ff;
+
 @import 'base';
 @import 'header';
+@import 'tiebox';
+@import 'bowpockettie';
+@import 'history';
+@import 'weekly';
+@import 'footer';

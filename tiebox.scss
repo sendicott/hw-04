@@ -1,0 +1,32 @@
+#row3 {
+    background-color: #f4f4f4;
+    position: relative;
+    bottom: 1px;
+    padding-bottom: 1px;
+
+    section:first-child {
+        display: flex;
+        justify-content: center;
+        align-content: flex-start;
+
+        figure {
+            margin: 0 10px 0 10px;
+
+            figcaption {
+                text-align: center;
+                font-family: 'Titillium Web', sans-serif;
+            }
+        }
+    }
+
+    section {
+        p:first-child {
+            color: black;
+            font-size: 60px;
+            font-family: 'Titillium Web', sans-serif;
+            text-align: center;
+            padding-bottom: 1px;
+        }
+    }
+}
+
